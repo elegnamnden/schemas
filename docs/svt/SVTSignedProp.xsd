@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="http://id.swedenconnect.se/svt/1.0/sig-prop/ns"
+    xmlns:svt="http://id.swedenconnect.se/svt/1.0/sig-prop/ns">
+    <xs:element name="SignatureValidationToken" type="svt:SignatureValidationTokenType"/>
+    <xs:complexType name="SignatureValidationTokenType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string"> </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>
