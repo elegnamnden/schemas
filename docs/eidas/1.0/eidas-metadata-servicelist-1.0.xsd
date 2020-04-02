@@ -108,7 +108,7 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element ref="ds:KeyInfo" minOccurs="0">
+      <xs:element ref="ds:KeyInfo" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>
             Key material (usually a certificate) that should be used to verify the signature
